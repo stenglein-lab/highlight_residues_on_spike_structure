@@ -9,10 +9,10 @@ Note that you will have to have [UCSF Chimera](https://www.cgl.ucsf.edu/chimera/
 ### Workflow:
 
 - download this repository to some directory: `git clone https://github.com/stenglein-lab/highlight_residues_on_spike_structure.git`
-- change to that directory (`cd highlight_residues_on_spike_structure.git`)
-- run this command: `./generate_chimera_commands residues_to_highlight > chimera_commands.cmd`
+- change to that directory:  `cd highlight_residues_on_spike_structure`
+- run this command: `./generate_chimera_commands residues_to_highlight.csv > chimera_commands.cmd`
 - open the Chimera software
-- open the newly created chimera_commands.cmd file in Chimera.  This should open the model and perform highlighting as specified in the residues_to_highlight.csv file.
+- open the newly created `chimera_commands.cmd` file in Chimera (File->Open).  This should open the model and perform highlighting as specified in the residues_to_highlight.csv file.
 - Use File -> Save Image to export the structure as an image file 
 
 
