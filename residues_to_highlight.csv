@@ -1,0 +1,25 @@
+# RBD spike residues 333-527, according to doi: 10.1038/s41586-020-2180-5
+333-527,yellow,RBD,none
+
+# NTD spike residues 14-303, according to doi: 10.1126/science.abc6952
+14-303,cornflowerblue,NTD,none
+
+69,cornflowerblue,H69R,sphere
+
+138,cornflowerblue,D138Y,sphere
+
+215,cornflowerblue,D215N,sphere
+
+501,yellow,N501T,sphere
+
+614,red,D614G,sphere
+
+# this residue is mutated but not present in the structure
+686,cyan,S686G,sphere
+
+# furin cleavage site PRRAR 681-685
+# not present in the structure
+681-685,cyan,furin_cleavage_site,none
+
+# these positions flank the loop where the furin cleavage site would be in 6vxx
+675-690,red,furin_loop_flanking,none
