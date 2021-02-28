@@ -4,7 +4,7 @@ open 6vxx.pdb
 turn y 90
 turn z 90
 preset apply pub 2
-color lightsteelblue :*.A-C
+color white :*.A-C
 color yellow :333-527.A-C
 color cornflowerblue :14-303.A-C
 color cornflowerblue :69.A-C

@@ -38,8 +38,8 @@ print "turn z 90\n";
 # use a publication preset (silhouette, licorice)
 print "preset apply pub 2\n";
 
-# color everything light steel blue
-print "color lightsteelblue :*.A-C\n";
+# color everything first
+print "color white :*.A-C\n";
 
 while (<>)
 {
